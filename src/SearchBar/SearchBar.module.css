@@ -1,0 +1,32 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  background-color: rgb(98, 17, 192);
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin: 0 auto;
+}
+
+.input {
+  height: 35px;
+  width: 300px;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  height: 35px;
+  width: 60px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 5px;
+}
