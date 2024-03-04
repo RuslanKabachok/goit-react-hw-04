@@ -16,4 +16,12 @@
   object-fit: fill;
   margin-bottom: 20px;
   overflow: hidden;
+  justify-content: center;
+  background-color: rgb(208, 193, 215);
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
